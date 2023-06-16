@@ -62,7 +62,7 @@ class LoginViewController: UIViewController {
     }
 }
 
-// MARK: - UIAleetControler
+// MARK: - UIAlertController
 
 private extension LoginViewController {
     
