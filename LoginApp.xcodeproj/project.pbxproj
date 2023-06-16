@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		ED61A59F2A376D5B006E263E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61A59E2A376D5B006E263E /* AppDelegate.swift */; };
 		ED61A5A12A376D5B006E263E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61A5A02A376D5B006E263E /* SceneDelegate.swift */; };
-		ED61A5A32A376D5B006E263E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61A5A22A376D5B006E263E /* ViewController.swift */; };
+		ED61A5A32A376D5B006E263E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61A5A22A376D5B006E263E /* LoginViewController.swift */; };
 		ED61A5A62A376D5B006E263E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED61A5A42A376D5B006E263E /* Main.storyboard */; };
 		ED61A5A82A376D5D006E263E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED61A5A72A376D5D006E263E /* Assets.xcassets */; };
 		ED61A5AB2A376D5D006E263E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED61A5A92A376D5D006E263E /* LaunchScreen.storyboard */; };
+		ED61A5B32A377BAC006E263E /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61A5B22A377BAC006E263E /* WelcomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED61A59B2A376D5B006E263E /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED61A59E2A376D5B006E263E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED61A5A02A376D5B006E263E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED61A5A22A376D5B006E263E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED61A5A22A376D5B006E263E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ED61A5A52A376D5B006E263E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED61A5A72A376D5D006E263E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED61A5AA2A376D5D006E263E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED61A5AC2A376D5D006E263E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED61A5B22A377BAC006E263E /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				ED61A59E2A376D5B006E263E /* AppDelegate.swift */,
 				ED61A5A02A376D5B006E263E /* SceneDelegate.swift */,
-				ED61A5A22A376D5B006E263E /* ViewController.swift */,
+				ED61A5A22A376D5B006E263E /* LoginViewController.swift */,
+				ED61A5B22A377BAC006E263E /* WelcomViewController.swift */,
 				ED61A5A42A376D5B006E263E /* Main.storyboard */,
 				ED61A5A72A376D5D006E263E /* Assets.xcassets */,
 				ED61A5A92A376D5D006E263E /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED61A5A32A376D5B006E263E /* ViewController.swift in Sources */,
+				ED61A5A32A376D5B006E263E /* LoginViewController.swift in Sources */,
 				ED61A59F2A376D5B006E263E /* AppDelegate.swift in Sources */,
 				ED61A5A12A376D5B006E263E /* SceneDelegate.swift in Sources */,
+				ED61A5B32A377BAC006E263E /* WelcomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
