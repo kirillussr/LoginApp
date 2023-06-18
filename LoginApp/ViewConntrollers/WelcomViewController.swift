@@ -13,10 +13,10 @@ final class WelcomViewController: UIViewController {
 
     @IBOutlet var welcomeLabel: UILabel!
     
-    var welcome = ""
+    private let myData = User.getMyData()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        welcomeLabel.text = "Welcome \(welcome)!"
+        welcomeLabel.text = "Welcome \(myData.form.name) \(myData.form.surname)!"
     }
 }

@@ -14,6 +14,10 @@
 		ED61A5A82A376D5D006E263E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED61A5A72A376D5D006E263E /* Assets.xcassets */; };
 		ED61A5AB2A376D5D006E263E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED61A5A92A376D5D006E263E /* LaunchScreen.storyboard */; };
 		ED61A5B32A377BAC006E263E /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61A5B22A377BAC006E263E /* WelcomViewController.swift */; };
+		ED9CD6AF2A3E24060030D27C /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ED9CD6AE2A3E24060030D27C /* images.jpeg */; };
+		ED9CD6B12A3E25750030D27C /* FirstResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CD6B02A3E25750030D27C /* FirstResumeViewController.swift */; };
+		ED9CD6B32A3E25B80030D27C /* SecondResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CD6B22A3E25B80030D27C /* SecondResumeViewController.swift */; };
+		ED9CD6B52A3F17860030D27C /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CD6B42A3F17860030D27C /* Form.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,11 @@
 		ED61A5AA2A376D5D006E263E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED61A5AC2A376D5D006E263E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED61A5B22A377BAC006E263E /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
+		ED9CD6AE2A3E24060030D27C /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../../../Downloads/images.jpeg; sourceTree = "<group>"; };
+		ED9CD6B02A3E25750030D27C /* FirstResumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstResumeViewController.swift; sourceTree = "<group>"; };
+		ED9CD6B22A3E25B80030D27C /* SecondResumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondResumeViewController.swift; sourceTree = "<group>"; };
+		ED9CD6B42A3F17860030D27C /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		ED9CD6B72A3FA7770030D27C /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +51,9 @@
 		ED61A5922A376D5B006E263E = {
 			isa = PBXGroup;
 			children = (
+				ED9CD6AE2A3E24060030D27C /* images.jpeg */,
 				ED61A59D2A376D5B006E263E /* LoginApp */,
+				ED61A5A72A376D5D006E263E /* Assets.xcassets */,
 				ED61A59C2A376D5B006E263E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,16 +69,59 @@
 		ED61A59D2A376D5B006E263E /* LoginApp */ = {
 			isa = PBXGroup;
 			children = (
-				ED61A59E2A376D5B006E263E /* AppDelegate.swift */,
-				ED61A5A02A376D5B006E263E /* SceneDelegate.swift */,
-				ED61A5A22A376D5B006E263E /* LoginViewController.swift */,
-				ED61A5B22A377BAC006E263E /* WelcomViewController.swift */,
-				ED61A5A42A376D5B006E263E /* Main.storyboard */,
-				ED61A5A72A376D5D006E263E /* Assets.xcassets */,
-				ED61A5A92A376D5D006E263E /* LaunchScreen.storyboard */,
-				ED61A5AC2A376D5D006E263E /* Info.plist */,
+				ED9CD6B62A3FA7610030D27C /* Images */,
+				ED9CD6AA2A3DF3010030D27C /* ViewConntrollers */,
+				ED9CD6A82A3DF2B70030D27C /* App */,
+				ED9CD6AB2A3DF3C10030D27C /* Models */,
+				ED9CD6A92A3DF2D90030D27C /* Storyboards */,
 			);
 			path = LoginApp;
+			sourceTree = "<group>";
+		};
+		ED9CD6A82A3DF2B70030D27C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ED61A59E2A376D5B006E263E /* AppDelegate.swift */,
+				ED61A5A02A376D5B006E263E /* SceneDelegate.swift */,
+				ED61A5AC2A376D5D006E263E /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ED9CD6A92A3DF2D90030D27C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ED61A5A42A376D5B006E263E /* Main.storyboard */,
+				ED61A5A92A376D5D006E263E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		ED9CD6AA2A3DF3010030D27C /* ViewConntrollers */ = {
+			isa = PBXGroup;
+			children = (
+				ED61A5A22A376D5B006E263E /* LoginViewController.swift */,
+				ED61A5B22A377BAC006E263E /* WelcomViewController.swift */,
+				ED9CD6B02A3E25750030D27C /* FirstResumeViewController.swift */,
+				ED9CD6B22A3E25B80030D27C /* SecondResumeViewController.swift */,
+			);
+			path = ViewConntrollers;
+			sourceTree = "<group>";
+		};
+		ED9CD6AB2A3DF3C10030D27C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED9CD6B42A3F17860030D27C /* Form.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED9CD6B62A3FA7610030D27C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ED9CD6B72A3FA7770030D27C /* images.jpeg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED61A5AB2A376D5D006E263E /* LaunchScreen.storyboard in Resources */,
+				ED9CD6AF2A3E24060030D27C /* images.jpeg in Resources */,
 				ED61A5A82A376D5D006E263E /* Assets.xcassets in Resources */,
 				ED61A5A62A376D5B006E263E /* Main.storyboard in Resources */,
 			);
@@ -142,9 +197,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED61A5A32A376D5B006E263E /* LoginViewController.swift in Sources */,
+				ED9CD6B52A3F17860030D27C /* Form.swift in Sources */,
 				ED61A59F2A376D5B006E263E /* AppDelegate.swift in Sources */,
 				ED61A5A12A376D5B006E263E /* SceneDelegate.swift in Sources */,
 				ED61A5B32A377BAC006E263E /* WelcomViewController.swift in Sources */,
+				ED9CD6B32A3E25B80030D27C /* SecondResumeViewController.swift in Sources */,
+				ED9CD6B12A3E25750030D27C /* FirstResumeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +350,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LoginApp/Info.plist;
+				INFOPLIST_FILE = LoginApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LoginApp/Info.plist;
+				INFOPLIST_FILE = LoginApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
